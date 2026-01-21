@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "poppins,sans-serif";
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.18) !important;
+    backdrop-filter: blur(14px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+
+.glass-card input {
+    background: rgba(255, 255, 255, 0.25);
+    border: none;
+    color: #fff;
+}
+
+.glass-card input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.glass-card h1,
+.glass-card p {
+    color: #fff;
+}
+
+
+
+.inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    margin-top: 10px;
+}
+
+.inp input {
+    flex: 1;
+    padding: 14px 18px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.inp button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    outline:none;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#country {
+    font-weight: 500;
+    margin-top: 30px;
+    color: rgb(18, 20, 20);
+
+}
+
+.box-main img {
+    align-items: center;
+    width: 100px;
+
+}
+
+#temp {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(101, 46, 89);
+}
+
+#des {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    color: beige;
+}
+
+.two {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.humidity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.humidity img {
+    width: 80px;
+    height: 80px;
+}
+
+.humidity h1 {
+    display: flex;
+    font-size: 22px;
+    margin-top:10px;
+    color: rgb(205, 34, 51);
+}
+
+.inner p {
+    margin-top: 6px;
+    font-size: 15px;
+    color: rgb(3, 186, 9);
+}
+
